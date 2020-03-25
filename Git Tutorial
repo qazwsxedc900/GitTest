@@ -20,3 +20,10 @@ Set remote node on github
 ~git push -u origin master:cat
 //push the "master" branch online, but use the name "cat"
 
+Download the change from github
+~git pull
+// =git fetch + git merge
+
+
+If you want to Download a repo on github
+~git clone (github mail)
