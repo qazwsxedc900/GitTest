@@ -1,0 +1,11 @@
+Set SSH Key
+~git ssh-keygen
+Then go to the key location and open the publish file
+
+Go to github seting to add the SSH key
+
+
+Initate the repo and add file into the repo
+~git init
+~git add (file)
+~git commit -m "the word you want to say"
