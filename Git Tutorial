@@ -5,7 +5,18 @@ Then go to the key location and open the publish file
 Go to github seting to add the SSH key
 
 
+upload a new git in your computer
+
 Initate the repo and add file into the repo
 ~git init
 ~git add (file)
 ~git commit -m "the word you want to say"
+Set remote node on github
+~git remote add origin (git address e.g. git@github.com:kaochenlong/practice-git.git)
+~git push -u origin master
+//push the "master" branch to "origin"(a remote node)
+//means it will build a "master" branch online and push the context to it
+//but if there is already a "master" node online, it will update the master to a new status
+~git push -u origin master:cat
+//push the "master" branch online, but use the name "cat"
+
